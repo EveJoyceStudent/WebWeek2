@@ -1,0 +1,147 @@
+/* Section 1 */
+
+.section1{
+   
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    font-family: Verdana,sans-serif;
+  }
+  .emailheader1 {
+      background-color: rgb(130, 189, 36);
+      color: white;
+      padding: 40px;
+      /* margin: 20px; */
+      font-size: 200%;
+      text-align: center;
+    }
+  .button {
+      color: #FFFFFF;
+      background-color:  rgb(130, 189, 36);
+      display: block;
+      padding: 8px 16px;
+      margin: 10px auto;
+      width: 50%;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+  }
+  .inlinelink{
+      color:  rgb(130, 189, 36);
+  }
+  .emailtext{
+      line-height: 1.5;
+      margin: 10px;
+  }
+  .footertext{
+      padding-top: 50px;
+      text-align: center;
+      color: gray;
+  }
+  a{
+      color: inherit;
+  }
+  
+  /* Section 2 */
+  
+  .section2{
+      background-color:  rgb(130, 189, 36);
+      padding: 40px;
+  }
+  .container{
+      background-color: white;
+      margin: 5px auto;
+      width: 400px;
+      padding: 40px;
+      box-shadow: 3px 3px 3px #888888;
+  }
+  input{
+      margin: auto;
+      display: block;
+      width: 75%;
+      margin: 10px auto;
+  }
+  .login{
+      color: #FFFFFF;
+      background-color:  rgb(130, 189, 36);
+      display: block;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: none;
+      width: 80%;
+      border: none;
+      padding: 5px;
+  
+  }
+  .createaccount{
+      text-align: center;
+      /* padding: 8px 16px; */
+  }
+  
+  
+  /* Section 3 */
+  
+  .section3{
+      width: 500px;
+      padding: 20px;
+      margin: 20px;
+      font-family: Verdana,sans-serif;
+      background-color: rgb(88, 39, 88);
+    }
+  .emailheader2 {
+      color: white;
+      padding: 40px;
+      margin: 20px;
+      font-size: 200%;
+      text-align: center;
+      font-family:'Lucida Handwriting', cursive;
+    }
+  .emailcontent{
+      background-color: white;
+      padding: 20px;
+  }
+  .emailimage{
+      width: 100%;
+      padding: 0px;
+      display: block;
+  }
+  .dateline{
+      font-weight: bold;
+      color: rgb(88, 39, 88);
+  }
+  .likes{
+      font-weight: normal;
+      color: violet;
+  }
+  .emailtextheader{
+      font-weight: normal;
+      color: rgb(88, 39, 88);
+  }
+  .emailtable{
+      width:100%;
+      border:0px;
+      border-collapse: collapse;
+  }
+  .emailtable th,td{
+      padding: 15px;
+  }#readmore{
+      border-top: 1px;
+      border-style: dashed;
+      border-color: rgb(163, 163, 163);
+      color: white;
+  }
+  #readmore th:nth-child(odd) {
+      background-color: white;
+      color: rgb(88, 39, 88);
+      text-align: left;
+  }
+  #readmore th:nth-child(even) {
+      background-color: rgb(165, 85, 165);
+  }
+  #content tr:nth-child(even) {
+      background-color: violet;
+  }
+  #content tr:nth-child(odd) {
+      background-color: rgb(165, 85, 165);
+  }
